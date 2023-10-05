@@ -4,7 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>ES Contact Center</title>
+	<title>Twilio Contact Center</title>
 
 	<link rel="stylesheet" href="/styles/bootstrap.min.css" type="text/css" />
 	<link rel="stylesheet" href="/styles/default.css" type="text/css" />
@@ -17,14 +17,14 @@
 	<div class="container" style="max-width:960px">
 
 		<div class="row">
-			<div class="page-header col-md-12">
-				<h1>ES Contact Center</h1>
+			<div class="page-header col-md-12 text-center">
+				<h5>ES Contact Center</h5>
 			</div>
 		</div>
 
 		<div class="row" ng-controller="IndexController" ng-init="validateSetup()">
 
-			<div class="col-md-4 col-md-push-8">
+			<div class="container">
 
 				<div ng-if="setup == 'VALID'" class="alert alert-dismissible alert-success">
 					<strong>Well done!</strong><br />You sucessfully setup the demo.
@@ -59,18 +59,18 @@
 
 			</div>
 
-			<div class="col-md-8 col-md-pull-4">
+			<div class="col-md-12">
 
-				<h3>Call Center Administration</h3>
+				<h5>Call Center Administration</h5>
 				<span>A basic administration interface to create and delete new call centre agents.</span><br><br>
 				<div><a href="/administration/index.html" class="btn btn-primary">Open</a></div>
 
-				<h3>Call Agent Login</h3>
+				<h5>Call Agent Login</h5>
 				<span>The working environment for agents. Agents need to open this page and log in.</span>
 				<br><br>
 				<div><a href="/callcenter/index.html" class="btn btn-primary">Open</a></div>
 
-				<h3>Company's Website</h3>
+				<h5>Company's Website</h5>
 				<span>Page for customers who want to talk to an agent. Users can request a callback, call the agents via phone, request video support or chat with an agent</span>
 				<br><br>
 				<div>
