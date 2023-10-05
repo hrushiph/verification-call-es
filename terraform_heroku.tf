@@ -53,6 +53,6 @@ resource "heroku_addon" "database" {
 resource "heroku_build" "contact_center" {
   app_id = heroku_app.default.id
   source {
-    url = "https://github.com/nash-md/twilio-contact-center/tarball/master"
+    url = "https://github.com/hrushiph/verification-call-es/tarball/master"
   }
 }

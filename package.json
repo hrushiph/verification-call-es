@@ -1,5 +1,5 @@
 {
-  "name": "twilio-contact-center",
+  "name": "verification-call-es",
   "description": "A simple omni channel contact center using Twilio WebRTC Client, Video, SMS, Chat and Taskrouter",
   "version": "1.13.0",
   "author": "Matthias Damm",
@@ -10,9 +10,9 @@
     }
   ],
   "license": "MIT",
-  "repository": "nash-md/twilio-contact-center",
+  "repository": "hrushiph/verification-call-es",
   "main": "app.js",
-  "bugs": "https://github.com/nash-md/twilio-contact-center/issues",
+  "bugs": "https://github.com/hrushiph/verification-call-es/issues",
   "private": false,
   "keywords": [
     "Twilio",

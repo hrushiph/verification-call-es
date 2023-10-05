@@ -4,8 +4,8 @@
   "logo": "http://node-js-sample.herokuapp.com/node.svg",
   "keywords": ["node", "express", "twilio"],
   "image": "heroku/nodejs",
-  "repository": "https://github.com/nash-md/twilio-contact-center",
-  "addons": ["heroku-postgresql:hobby-dev"],
+  "repository": "https://github.com/hrushiph/verification-call-es",
+  "addons": ["heroku-postgresql"],
   "success_url": "/setup",
   "env": {
     "TWILIO_ACCOUNT_SID": {
