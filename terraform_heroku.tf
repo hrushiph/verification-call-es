@@ -22,8 +22,8 @@ variable "twilio" {
     auth_token = "eafd9d1769861413973e5abee13289bb"
     workspace_sid = "WS4d8e9d4ce0d0c4ba37446d1d399b25e2"
     chat_service_sid = "IS69bb745859a94bdf94bc955e85475ef6"
-    api_key_sid = "SKef01159a993f0c471af82034deb7c9a2"
-    api_key_secret = "4e45LE1s8GtUnpcJVl2uc3URIvlE8SUl"
+    api_key_sid = "SK55024611bdc26a8f99a8874fdeaadc6b"
+    api_key_secret = "w59VPWrcr74EDOqiv1SBLWg8l9X5XHqi"
   }
 }
 

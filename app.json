@@ -26,11 +26,11 @@
     },
     "TWILIO_API_KEY_SID": {
       "description": "API Keys are revokable credentials for the Twilio API. You can create it here: https://www.twilio.com/console/dev-tools/api-keys",
-      "value": "SKef01159a993f0c471af82034deb7c9a2"
+      "value": "SK55024611bdc26a8f99a8874fdeaadc6b"
     },
     "TWILIO_API_KEY_SECRET": {
       "description": "API Keys are revokable credentials for the Twilio API.",
-      "value": "4e45LE1s8GtUnpcJVl2uc3URIvlE8SUl"
+      "value": "w59VPWrcr74EDOqiv1SBLWg8l9X5XHqi"
     }
   }
 }
