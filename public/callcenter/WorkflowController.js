@@ -95,7 +95,7 @@ app.controller('WorkflowController', function ($scope, $rootScope, $http, $inter
 				$scope.task.attributes.nameIsPhoneNumber = true;
 			}
 
-			$scope.$broadcast('DestroyReservation');
+			// $scope.$broadcast('DestroyReservation');
 		});
 
 		$scope.workerJS.on('reservation.timeout', function (reservation) {
