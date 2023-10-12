@@ -14,7 +14,7 @@
     },
     "TWILIO_AUTH_TOKEN": {
       "description": "Your Twilio authToken",
-      "value": "ffd0ea7e1b8ea9f93c917257549d0a6f"
+      "value": "5c5ef9c09dd6eb7dbf9de615764220f9"
     },
     "TWILIO_WORKSPACE_SID": {
       "description": "A Workspace is a container for your Tasks, Workers, TaskQueues. You can create it here: https://www.twilio.com/console/taskrouter/workspaces",
