@@ -15,6 +15,7 @@ let util
 if (isRunningOnHeroku()) {
 	console.log('application is running on Heroku')
 	util = require('./util-heroku-pg.js')
+	console.log('Accessing configuration if not exists')
 	util.createConfigurationIfNotExists()
 } else if (isRunningOnGoogle()) {
 	console.log('application is running on Google App Engine')
