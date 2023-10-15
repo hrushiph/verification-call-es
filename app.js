@@ -28,8 +28,10 @@ if (isRunningOnHeroku()) {
 
 util.getConfiguration(function (error, configuration) {
 	if (error) {
+		console.log('getting erro here')
 		console.log(error)
 	} else {
+		console.log('getting configuration set')
 		context.set({ configuration: configuration })
 	}
 })

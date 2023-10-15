@@ -6,6 +6,7 @@ const datastore = new Datastore()
 const key = datastore.key(['configuration', 1])
 
 const getConfiguration = async callback => {
+	console.log('getting configuration')
 	try {
 		const [entity] = await datastore.get(key)
 
